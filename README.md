@@ -1,6 +1,14 @@
 # app-modules
 Adds `node_app_modules` to the require path
 
+[![circleci](https://circleci.com/gh/orangemug/app-modules.png?style=shield)][circleci]
+[![Dependency Status](https://david-dm.org/orangemug/app-modules.svg)][dm-prod]
+[![Dev Dependency Status](https://david-dm.org/orangemug/app-modules/dev-status.svg)][dm-dev]
+
+[circleci]:  https://circleci.com/gh/orangemug/app-modules
+[dm-prod]:   https://david-dm.org/orangemug/app-modules
+[dm-dev]:    https://david-dm.org/orangemug/app-modules#info=devDependencies
+
 
 ## Why?
 For larger apps you end up doing alot of odd requiring

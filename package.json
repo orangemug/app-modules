@@ -1,0 +1,14 @@
+{
+  "name": "app-modules",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "pkg-up": "^1.0.0"
+  }
+}

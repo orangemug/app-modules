@@ -7,9 +7,9 @@ For larger apps you end up doing alot of odd requiring
 
     require("../../../../../../lib/module");
 
-If you symlink you `./lib` directory, or any other directory in `node_app_modules` you can just do
+You could just add symlinks to `node_modules` however that messes with `node_modules` caching on various platforms like heroku and circleci.
 
-    require("lib/module");
+This library adds a new directory `node_app_modules` to the load path.
 
 
 
@@ -18,12 +18,13 @@ If you symlink you `./lib` directory, or any other directory in `node_app_module
     npm i orangemug/app-modules --save
 
 
-
 ## Usage
-Just require at the top of your script
+To setup just require the module
 
+    // Adds `node_app_modules` as a load path
     require("app-modules");
 
+Then you can require anything in your `node_app_modules` directory
 
 
 ## License
